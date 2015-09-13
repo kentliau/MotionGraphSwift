@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37700A1C1BA0E5B5002A3090 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37700A1B1BA0E5B5002A3090 /* CoreMotion.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		37700A1E1BA0E5CC002A3090 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37700A1D1BA0E5CC002A3090 /* QuartzCore.framework */; };
+		37700A201BA0E5D9002A3090 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37700A1F1BA0E5D9002A3090 /* CoreGraphics.framework */; };
+		37700A221BA0E5E2002A3090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37700A211BA0E5E2002A3090 /* UIKit.framework */; };
+		37700A241BA0E5EE002A3090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37700A231BA0E5EE002A3090 /* Foundation.framework */; };
+		3773473E1B9921F0008164F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3773473D1B9921F0008164F5 /* AppDelegate.swift */; };
+		377347451B9921F0008164F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377347431B9921F0008164F5 /* Main.storyboard */; };
+		377347471B9921F0008164F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377347461B9921F0008164F5 /* Assets.xcassets */; };
+		3773474A1B9921F0008164F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377347481B9921F0008164F5 /* LaunchScreen.storyboard */; };
+		377347521B992464008164F5 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377347511B992464008164F5 /* GraphViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		377347541B99248C008164F5 /* DeviceMotionGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377347531B99248C008164F5 /* DeviceMotionGraphViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		377347561B9924A1008164F5 /* AccelerometerGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377347551B9924A1008164F5 /* AccelerometerGraphViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		377347581B9924B8008164F5 /* GyroGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377347571B9924B8008164F5 /* GyroGraphViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3773475A1B9924FD008164F5 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377347591B9924FD008164F5 /* GraphView.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37700A1B1BA0E5B5002A3090 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		37700A1D1BA0E5CC002A3090 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		37700A1F1BA0E5D9002A3090 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37700A211BA0E5E2002A3090 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37700A231BA0E5EE002A3090 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3773473A1B9921F0008164F5 /* MotionGraphSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionGraphSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3773473D1B9921F0008164F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		377347441B9921F0008164F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		377347461B9921F0008164F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		377347491B9921F0008164F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3773474B1B9921F0008164F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377347511B992464008164F5 /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		377347531B99248C008164F5 /* DeviceMotionGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceMotionGraphViewController.swift; sourceTree = "<group>"; };
+		377347551B9924A1008164F5 /* AccelerometerGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelerometerGraphViewController.swift; sourceTree = "<group>"; };
+		377347571B9924B8008164F5 /* GyroGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GyroGraphViewController.swift; sourceTree = "<group>"; };
+		377347591B9924FD008164F5 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		377347371B9921F0008164F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37700A241BA0E5EE002A3090 /* Foundation.framework in Frameworks */,
+				37700A221BA0E5E2002A3090 /* UIKit.framework in Frameworks */,
+				37700A201BA0E5D9002A3090 /* CoreGraphics.framework in Frameworks */,
+				37700A1E1BA0E5CC002A3090 /* QuartzCore.framework in Frameworks */,
+				37700A1C1BA0E5B5002A3090 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37700A251BA0E60B002A3090 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37700A231BA0E5EE002A3090 /* Foundation.framework */,
+				37700A211BA0E5E2002A3090 /* UIKit.framework */,
+				37700A1F1BA0E5D9002A3090 /* CoreGraphics.framework */,
+				37700A1D1BA0E5CC002A3090 /* QuartzCore.framework */,
+				37700A1B1BA0E5B5002A3090 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		377347311B9921F0008164F5 = {
+			isa = PBXGroup;
+			children = (
+				3773473C1B9921F0008164F5 /* MotionGraphSwift */,
+				37700A251BA0E60B002A3090 /* Frameworks */,
+				3773473B1B9921F0008164F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3773473B1B9921F0008164F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3773473A1B9921F0008164F5 /* MotionGraphSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3773473C1B9921F0008164F5 /* MotionGraphSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3773473D1B9921F0008164F5 /* AppDelegate.swift */,
+				377347511B992464008164F5 /* GraphViewController.swift */,
+				377347531B99248C008164F5 /* DeviceMotionGraphViewController.swift */,
+				377347551B9924A1008164F5 /* AccelerometerGraphViewController.swift */,
+				377347571B9924B8008164F5 /* GyroGraphViewController.swift */,
+				377347591B9924FD008164F5 /* GraphView.swift */,
+				377347431B9921F0008164F5 /* Main.storyboard */,
+				377347481B9921F0008164F5 /* LaunchScreen.storyboard */,
+				3773474B1B9921F0008164F5 /* Info.plist */,
+				377347461B9921F0008164F5 /* Assets.xcassets */,
+			);
+			path = MotionGraphSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		377347391B9921F0008164F5 /* MotionGraphSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3773474E1B9921F0008164F5 /* Build configuration list for PBXNativeTarget "MotionGraphSwift" */;
+			buildPhases = (
+				377347361B9921F0008164F5 /* Sources */,
+				377347371B9921F0008164F5 /* Frameworks */,
+				377347381B9921F0008164F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionGraphSwift;
+			productName = MotionGraphSwift;
+			productReference = 3773473A1B9921F0008164F5 /* MotionGraphSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		377347321B9921F0008164F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kent Liau";
+				TargetAttributes = {
+					377347391B9921F0008164F5 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = D4LMQU7AJM;
+					};
+				};
+			};
+			buildConfigurationList = 377347351B9921F0008164F5 /* Build configuration list for PBXProject "MotionGraphSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 377347311B9921F0008164F5;
+			productRefGroup = 3773473B1B9921F0008164F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				377347391B9921F0008164F5 /* MotionGraphSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		377347381B9921F0008164F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3773474A1B9921F0008164F5 /* LaunchScreen.storyboard in Resources */,
+				377347471B9921F0008164F5 /* Assets.xcassets in Resources */,
+				377347451B9921F0008164F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		377347361B9921F0008164F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377347521B992464008164F5 /* GraphViewController.swift in Sources */,
+				377347561B9924A1008164F5 /* AccelerometerGraphViewController.swift in Sources */,
+				377347581B9924B8008164F5 /* GyroGraphViewController.swift in Sources */,
+				3773473E1B9921F0008164F5 /* AppDelegate.swift in Sources */,
+				377347541B99248C008164F5 /* DeviceMotionGraphViewController.swift in Sources */,
+				3773475A1B9924FD008164F5 /* GraphView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		377347431B9921F0008164F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377347441B9921F0008164F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		377347481B9921F0008164F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377347491B9921F0008164F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3773474C1B9921F0008164F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3773474D1B9921F0008164F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3773474F1B9921F0008164F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MotionGraphSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kentliau.MotionGraphSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		377347501B9921F0008164F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MotionGraphSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kentliau.MotionGraphSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		377347351B9921F0008164F5 /* Build configuration list for PBXProject "MotionGraphSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3773474C1B9921F0008164F5 /* Debug */,
+				3773474D1B9921F0008164F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3773474E1B9921F0008164F5 /* Build configuration list for PBXNativeTarget "MotionGraphSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3773474F1B9921F0008164F5 /* Debug */,
+				377347501B9921F0008164F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 377347321B9921F0008164F5 /* Project object */;
+}
