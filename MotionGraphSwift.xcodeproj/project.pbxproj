@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		375304971BA558610082BB94 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 375304961BA558610082BB94 /* readme.md */; settings = {ASSET_TAGS = (); }; };
 		37700A1C1BA0E5B5002A3090 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37700A1B1BA0E5B5002A3090 /* CoreMotion.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		37700A1E1BA0E5CC002A3090 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37700A1D1BA0E5CC002A3090 /* QuartzCore.framework */; };
 		37700A201BA0E5D9002A3090 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37700A1F1BA0E5D9002A3090 /* CoreGraphics.framework */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		375304961BA558610082BB94 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		37700A1B1BA0E5B5002A3090 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		37700A1D1BA0E5CC002A3090 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		37700A1F1BA0E5D9002A3090 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -73,6 +75,7 @@
 		377347311B9921F0008164F5 = {
 			isa = PBXGroup;
 			children = (
+				375304961BA558610082BB94 /* readme.md */,
 				3773473C1B9921F0008164F5 /* MotionGraphSwift */,
 				37700A251BA0E60B002A3090 /* Frameworks */,
 				3773473B1B9921F0008164F5 /* Products */,
@@ -179,6 +182,7 @@
 				377347561B9924A1008164F5 /* AccelerometerGraphViewController.swift in Sources */,
 				377347581B9924B8008164F5 /* GyroGraphViewController.swift in Sources */,
 				3773473E1B9921F0008164F5 /* AppDelegate.swift in Sources */,
+				375304971BA558610082BB94 /* readme.md in Sources */,
 				377347541B99248C008164F5 /* DeviceMotionGraphViewController.swift in Sources */,
 				3773475A1B9924FD008164F5 /* GraphView.swift in Sources */,
 			);
