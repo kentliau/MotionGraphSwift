@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 class DeviceMotionGraphViewController: GraphViewController {
 
     let deviceMotionMin: NSTimeInterval = 0.01

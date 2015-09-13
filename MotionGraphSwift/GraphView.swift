@@ -222,9 +222,11 @@ class GraphViewSegment : NSObject {
 
 
 // MARK:- GraphTextView
+
 /*
 We use a separate view to draw the text for the graph so that we can layer the segment layers below it which gives the illusion that the numbers are draw over the graph, and hides the fact that the graph drawing for each segment is incomplete until the segment is filled.
 */
+
 class GraphTextView : UIView {
     
     override func drawRect(rect: CGRect) {
